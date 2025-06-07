@@ -2,6 +2,11 @@
 ![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-yellowgreen.svg)
 Allows for the integration of [PushWoosh](https://www.pushwoosh.com/) notifications in Titanium applications.
 
+## Download
+
+### iOS - [here](https://github.com/deckameron/Ti.PushWoosh/raw/refs/heads/main/ios/dist/ti.pushwoosh-iphone-1.0.0.zip)
+### Android - [here](https://github.com/deckameron/Ti.PushWoosh/raw/refs/heads/main/android/dist/ti.pushwoosh-android-1.0.0.zip)
+
 ## Requirements
 - [x] Titanium SDK 12.7.0+
 
@@ -16,20 +21,20 @@ Allows for the integration of [PushWoosh](https://www.pushwoosh.com/) notificati
 
 Integrate the module into the `modules` folder and define them into the `tiapp.xml` file:
 
-    ```xml
+```xml
     <modules>
       <module platform="iphone">ti.pushwoosh</module>
       <module platform="android">ti.pushwoosh</module>
     </modules>
-    ```
+```
 ### Android
 To use PushWoosh on Android devices, register some meta-data in the <b>Application</b> node of you Android <b>manifest</b> in Tiapp.xml :
 
-    ```xml
-    <meta-data  android:name="com.pushwoosh.appid"  android:value="[APP-ID]"/>
-    <meta-data  android:name="com.pushwoosh.senderid"  android:value="[FCM-SENDER-ID]"/>
-    <meta-data  android:name="com.pushwoosh.apitoken"  android:value="[API-KEY]"  />
-    ```
+```xml
+	<meta-data  android:name="com.pushwoosh.appid"  android:value="[APP-ID]"/>
+	<meta-data  android:name="com.pushwoosh.senderid"  android:value="[FCM-SENDER-ID]"/>
+	<meta-data  android:name="com.pushwoosh.apitoken"  android:value="[API-KEY]"  />
+```
 
 [PushWoosh Android DOC](https://docs.pushwoosh.com/developer/first-steps/connect-messaging-services/configure-android-platform)
 
