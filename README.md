@@ -1,5 +1,5 @@
-﻿# Ti.PushWoosh 
-![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-yellowgreen.svg)
+﻿# Ti.PushWoosh ![platforms](https://img.shields.io/badge/platforms-Android%20%7C%20iOS-yellowgreen.svg)
+
 Allows for the integration of [PushWoosh](https://www.pushwoosh.com/) notifications in Titanium applications.
 
 ## Download
