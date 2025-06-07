@@ -1,0 +1,291 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PushwooshFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PushwooshCore",
+        "printedName": "PushwooshCore",
+        "declKind": "Import",
+        "moduleName": "PushwooshFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "PushwooshBridge",
+        "printedName": "PushwooshBridge",
+        "declKind": "Import",
+        "moduleName": "PushwooshFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Pushwoosh",
+        "printedName": "Pushwoosh",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LiveActivities",
+            "printedName": "LiveActivities",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any PushwooshBridge.PWLiveActivities.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWLiveActivities",
+                    "printedName": "PushwooshBridge.PWLiveActivities",
+                    "usr": "c:@M@PushwooshBridge@objc(pl)PWLiveActivities"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So9PushwooshC0A9FrameworkE14LiveActivities0A6Bridge06PWLiveD0_pXpvpZ",
+            "mangledName": "$sSo9PushwooshC0A9FrameworkE14LiveActivities0A6Bridge06PWLiveD0_pXpvpZ",
+            "moduleName": "PushwooshFramework",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any PushwooshBridge.PWLiveActivities.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWLiveActivities",
+                        "printedName": "PushwooshBridge.PWLiveActivities",
+                        "usr": "c:@M@PushwooshBridge@objc(pl)PWLiveActivities"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So9PushwooshC0A9FrameworkE14LiveActivities0A6Bridge06PWLiveD0_pXpvgZ",
+                "mangledName": "$sSo9PushwooshC0A9FrameworkE14LiveActivities0A6Bridge06PWLiveD0_pXpvgZ",
+                "moduleName": "PushwooshFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Debug",
+            "printedName": "Debug",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any PushwooshCore.PWDebug.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWDebug",
+                    "printedName": "PushwooshCore.PWDebug",
+                    "usr": "c:objc(pl)PWDebug"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So9PushwooshC0A9FrameworkE5DebugSo7PWDebug_pXpvpZ",
+            "mangledName": "$sSo9PushwooshC0A9FrameworkE5DebugSo7PWDebug_pXpvpZ",
+            "moduleName": "PushwooshFramework",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any PushwooshCore.PWDebug.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWDebug",
+                        "printedName": "PushwooshCore.PWDebug",
+                        "usr": "c:objc(pl)PWDebug"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So9PushwooshC0A9FrameworkE5DebugSo7PWDebug_pXpvgZ",
+                "mangledName": "$sSo9PushwooshC0A9FrameworkE5DebugSo7PWDebug_pXpvgZ",
+                "moduleName": "PushwooshFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "Configuration",
+            "printedName": "Configuration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any PushwooshCore.PWConfiguration.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PWConfiguration",
+                    "printedName": "PushwooshCore.PWConfiguration",
+                    "usr": "c:objc(pl)PWConfiguration"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So9PushwooshC0A9FrameworkE13ConfigurationSo15PWConfiguration_pXpvpZ",
+            "mangledName": "$sSo9PushwooshC0A9FrameworkE13ConfigurationSo15PWConfiguration_pXpvpZ",
+            "moduleName": "PushwooshFramework",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any PushwooshCore.PWConfiguration.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "PWConfiguration",
+                        "printedName": "PushwooshCore.PWConfiguration",
+                        "usr": "c:objc(pl)PWConfiguration"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So9PushwooshC0A9FrameworkE13ConfigurationSo15PWConfiguration_pXpvgZ",
+                "mangledName": "$sSo9PushwooshC0A9FrameworkE13ConfigurationSo15PWConfiguration_pXpvgZ",
+                "moduleName": "PushwooshFramework",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)Pushwoosh",
+        "moduleName": "PushwooshFramework",
+        "isOpen": true,
+        "objc_name": "Pushwoosh",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,19 @@
+println "Running gradle version: $gradle.gradleVersion"
+
+// repositories {
+//     google();
+//     maven { url 'https://jitpack.io' }
+//     maven { url 'https://repo.jenkins-ci.org/public/' }
+//     maven { url 'https://artifact.bytedance.com/repository/pangle/'}
+//     maven { url 'https://dl-maven-android.mintegral.com/repository/mbridge_android_sdk_oversea'}
+//     jcenter()
+//     mavenCentral()
+//     flatDir {
+//         dirs 'libs'
+//     }
+// }
+
+dependencies {
+ 	implementation 'com.pushwoosh:pushwoosh-firebase:6.7.25'
+ 	implementation 'com.google.firebase:firebase-messaging:24.1.1'
+}

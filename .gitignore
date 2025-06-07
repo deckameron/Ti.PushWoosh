@@ -1,0 +1,60 @@
+# Diretórios de build
+build/
+tmp/
+
+# Arquivos temporários e logs
+*.log
+.DS_Store
+*.swp
+*.swo
+
+# MacOS Finder e Spotlight
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Arquivos de sistema do macOS
+Icon?
+._*
+
+# Titanium SDK Build Artifacts
+*.pyc
+*.pyo
+*.class
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node Modules (se usar ferramentas baseadas em Node)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Xcode
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+*.xcuserdatad
+DerivedData/
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Android Studio / Gradle
+.gradle/
+local.properties
+*.iml
+build/
+captures/
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Titanium-specific
+manifest
+metadata.json
