@@ -2,10 +2,6 @@
 
 Allows for the integration of [PushWoosh](https://www.pushwoosh.com/) notifications in Titanium applications.
 
-## Download
-
-### iOS - [here](https://github.com/deckameron/Ti.PushWoosh/raw/refs/heads/main/ios/dist/ti.pushwoosh-iphone-1.0.0.zip)
-### Android - [here](https://github.com/deckameron/Ti.PushWoosh/raw/refs/heads/main/android/dist/ti.pushwoosh-android-1.0.0.zip)
 
 ## Requirements
 - [x] Titanium SDK 12.7.0+
@@ -14,7 +10,6 @@ Allows for the integration of [PushWoosh](https://www.pushwoosh.com/) notificati
 #### iOS - [here](https://docs.pushwoosh.com/developer/pushwoosh-sdk/ios-sdk/setting-up-pushwoosh-ios-sdk/quick-start/)
 #### Android - [here](https://docs.pushwoosh.com/developer/pushwoosh-sdk/android-sdk/firebase-integration/quick-start/)
 #### API_TOKEN - [here](https://docs.pushwoosh.com/developer/api-reference/api-access-token/#device-api-token)
-
 
 
 ## Setup
